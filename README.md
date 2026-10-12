@@ -1,6 +1,10 @@
 # NUSFoundIt
 
 Welcome to NUSFoundIt! This is a [React Native](https://reactnative.dev/) project created by Kevin Varghese and Advait Phadnis for CP2106 *Orbital* at NUS. It runs natively on [Expo Go](https://expo.dev) but its production web deployment can also be accessed on [Vercel](https://vercel.com) (which *only* works on **mobile web browsers**). 
+***
+NUSFoundIt is a centralized, smart lost-and-found mobile utility designed exclusively for National University of Singapore (NUS) students and staff. The app aims to replace fragmented campus Telegram channels and outdated SharePoint listings with a secure, verified digital ecosystem. 
+
+Students can log lost or found items with photo uploads and campus venue tags derived from NUSMods data into the app. It features a custom set-theoretic matching engine that scores potential item matches based on shared keywords, categories, location proximity, and timestamps, utilising Firebase Cloud Functions to trigger automated Telegram push alerts when high-confidence matches are found.
 
 ## View on Expo Go
 
